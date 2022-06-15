@@ -41,9 +41,7 @@ int main()
 			correct = 1;
 			std::cout << "What tempature does water freeze at?\n1.32F \n2.32C \n3.50F\n4.69C" << std::endl;
 			std::cin >> user_ans;
-
 			Check_ans(correct, user_ans);
-			
 			break;
 
 		case 3:
@@ -51,7 +49,6 @@ int main()
 			std::cout << "Which game do you win by making your friends bankrupt?\n1.Life\n2.Monopoly\n3.Uno\n4.Candy Land" << std::endl;
 			std::cin >> user_ans;
 			Check_ans(correct, user_ans);
-			
 			break;
 
 		case 4:
