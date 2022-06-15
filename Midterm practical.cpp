@@ -79,7 +79,7 @@ void Check_ans(int correct, int user_input) {
 	}
 	else
 	{
-			std::cout << "Thats to bad your anser was wrong time to move to the next question" << std::endl;
+			std::cout << "Thats to bad your answer was wrong." << std::endl;
 	}
 
 }
